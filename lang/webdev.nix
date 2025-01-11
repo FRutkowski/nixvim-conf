@@ -8,7 +8,10 @@
         filetypes = [ "vue" "typescript" "javascript" ];
         extraOptions.init_options.vue.hybridMode = false;
       };
-      ts_ls.enable = true;
+      ts_ls = {
+        enable = true;
+        filetypes = [ "typescript" ];
+      };
       tailwindcss.enable = true;
       svelte.enable = true;
       jsonls.enable = true;

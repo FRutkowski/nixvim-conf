@@ -15,7 +15,7 @@ with lib; {
   };
 
   opts = {
-    clipboard = "unnamedplus";
+    # clipboard = "unnamedplus";
     cursorline = true;
     cursorlineopt = "number";
 

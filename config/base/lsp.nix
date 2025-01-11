@@ -12,7 +12,7 @@
         # format_on_save = "function() return end";
         default_format_opts.lsp_format = "fallback";
         formatters_by_ft = {
-          vue = ["rustywind" ["biome"]];
+          vue = ["biome"];
           "_" = [ "squeeze_blanks" "trim_whitespace" "trim_newlines" ];
         };
         formatters = {
