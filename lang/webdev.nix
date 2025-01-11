@@ -1,17 +1,17 @@
 {
   plugins = {
-    ts-autotag.enable = true;
-    ts-comments.enable = true;
+    # ts-autotag.enable = true;
+    # ts-comments.enable = true;
     lsp.servers = {
       volar = {
         enable = true;
         filetypes = [ "vue" "typescript" "javascript" ];
         extraOptions.init_options.vue.hybridMode = false;
       };
-      ts_ls = {
-        enable = true;
-        filetypes = [ "typescript" ];
-      };
+      # ts_ls = {
+      #   enable = true;
+      #   filetypes = [ "typescript" ];
+      # };
       tailwindcss.enable = true;
       svelte.enable = true;
       jsonls.enable = true;
