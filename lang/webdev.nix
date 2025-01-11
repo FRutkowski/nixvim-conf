@@ -3,7 +3,7 @@
     ts-autotag.enable = true;
     ts-comments.enable = true;
     lsp.servers = {
-      ts_ls.enable = true;
+      # ts_ls.enable = true;
       tailwindcss.enable = true;
       svelte.enable = true;
       jsonls.enable = true;
