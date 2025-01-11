@@ -12,6 +12,11 @@
       emmet_ls.enable = true;
       cssls.enable = true;
       biome.enable = true;
+      volar = {
+        enable = true;
+        filetypes = [ "vue" "typescript" "javascript" ];
+        extraOptions.init_options.vue.hybridMode = false;
+      };
     };
   };
 }
