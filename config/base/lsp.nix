@@ -1,5 +1,4 @@
-{ opts, lib, pkgs, ... }:
-{
+{ opts, lib, pkgs, ... }: {
   plugins = {
     otter.enable = true;
     conform-nvim = {
@@ -13,16 +12,10 @@
         # format_on_save = "function() return end";
         default_format_opts.lsp_format = "fallback";
         formatters_by_ft = {
-          "_" = [
-            "squeeze_blanks"
-            "trim_whitespace"
-            "trim_newlines"
-          ];
+          "_" = [ "squeeze_blanks" "trim_whitespace" "trim_newlines" ];
         };
         formatters = {
-          squeeze_blanks = {
-            command = lib.getExe' pkgs.coreutils "cat";
-          };
+          squeeze_blanks = { command = lib.getExe' pkgs.coreutils "cat"; };
         };
       };
     };
@@ -30,9 +23,7 @@
       enable = true;
       servers.typos_lsp = {
         enable = true;
-        extraOptions = {
-          init_options.diagnosticSeverity = "Hint";
-        };
+        extraOptions = { init_options.diagnosticSeverity = "Hint"; };
       };
       keymaps = {
         silent = true;
@@ -164,7 +155,7 @@
             ruby = "rb",
             rust = "rs",
             teal = "tl",
-            typescript = "ts",
+            -- typescript = "ts",
           },
         },
       }

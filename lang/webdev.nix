@@ -1,7 +1,7 @@
 {
   plugins = {
-    ts-autotag.enable = true;
-    ts-comments.enable = true;
+    # ts-autotag.enable = true;
+    # ts-comments.enable = true;
     lsp.servers = {
       # ts_ls.enable = true;
       tailwindcss.enable = true;
