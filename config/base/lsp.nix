@@ -156,8 +156,8 @@
             ruby = "rb",
             rust = "rs",
             teal = "tl",
-            typescript = "ts",
             vue = "vue",
+            -- typescript = "ts",
           },
         },
       }
