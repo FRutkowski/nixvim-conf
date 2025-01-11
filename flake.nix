@@ -13,10 +13,10 @@
       flake = false;
     };
 
-    # typr = {
-    #   url = "github:nvzone/typr";
-    #   flake = false;
-    # };
+    typr = {
+      url = "github:nvzone/typr";
+      flake = false;
+    };
 
     calendar = {
       url = "github:itchyny/calendar.vim";
