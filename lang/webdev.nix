@@ -3,13 +3,13 @@
     # ts-autotag.enable = true;
     # ts-comments.enable = true;
     lsp.servers = {
+      ts_ls.enable = true;
       volar = {
         enable = true;
         filetypes = [ "vue" "typescript" "javascript" ];
         tslsIntegration = true;
-        extraOptions.init_options.vue.hybridMode = false;
+        # extraOptions.init_options.vue.hybridMode = false;
       };
-      ts_ls.enable = true;
       tailwindcss.enable = true;
       svelte.enable = true;
       jsonls.enable = true;
