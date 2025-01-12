@@ -21,10 +21,10 @@
     };
     lsp = {
       enable = true;
-      servers.typos_lsp = {
-        enable = true;
-        extraOptions = { init_options.diagnosticSeverity = "Hint"; };
-      };
+      # servers.typos_lsp = {
+      #   enable = true;
+      #   extraOptions = { init_options.diagnosticSeverity = "Hint"; };
+      # };
       keymaps = {
         silent = true;
         lspBuf = {
