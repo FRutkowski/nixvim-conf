@@ -14,7 +14,7 @@
       # svelte.enable = true;
       # jsonls.enable = true;
       # html.enable = true;
-      eslint.enable = true;
+      # eslint.enable = true;
       emmet_ls.enable = true;
       cssls.enable = true;
       # biome.enable = true;
