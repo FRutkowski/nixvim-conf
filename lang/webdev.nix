@@ -12,8 +12,8 @@
       };
       tailwindcss.enable = true;
       # svelte.enable = true;
-      jsonls.enable = true;
-      html.enable = true;
+      # jsonls.enable = true;
+      # html.enable = true;
       eslint.enable = true;
       emmet_ls.enable = true;
       cssls.enable = true;
